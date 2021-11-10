@@ -1,0 +1,1 @@
+# Some basic utility scripts for general distributions based on Arch Linux
