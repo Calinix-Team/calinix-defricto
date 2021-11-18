@@ -1,3 +1,11 @@
+#!/bin/bash
+
+#     _    ____  
+#    / \  / ___|   Arghya Sarkar
+#   / _ \ \___ \   https://github.com/arghyagod-coder
+#  / ___ \ ___) |  https://github.com/Calinix-Team
+# /_/   \_\____/   https://get.calinix.tech
+
 echo "#################################################"
 echo '## Installing MS Office 2010 in Arch with WINE ##'
 echo "## Remember this installs MSO10 and not latest ##"
@@ -54,8 +62,7 @@ echo "#################################################"
 echo "Exporting WINE prefix to /etc/profile"
 echo "#################################################"
 
-sudo echo 'export WINEPREFIX="~/.msOffice"
-export WINEARCH="win32"'>>/etc/profile
+sudo echo -e 'export WINEPREFIX="~/.msOffice"\nexport WINEARCH="win32"'>>/etc/profile
 
 echo "
  #######################################################################################
